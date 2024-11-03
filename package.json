@@ -1,8 +1,11 @@
 {
+  
   "private": true,
+  
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbo",
+    "dev:trace": "set NODE_OPTIONS=--trace-warnings && pnpm run dev",
     "start": "next start"
   },
   "dependencies": {
@@ -34,4 +37,5 @@
       "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
     }
   }
+  
 }
